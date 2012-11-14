@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.ryu</groupId>
-  <artifactId>ryu-archetype-quickstart</artifactId>
+  <groupId>org.ryu1</groupId>
+  <artifactId>ryu1-archetype-quickstart</artifactId>
   <version>1.0</version>
-  <name>Ryu's Java Project Archetype</name>
+  <name>Ryu1's Java Project Archetype</name>
   <description>
-Creates Maven and Eclipse Java project with Ryu's coding standard checker,
+Creates Maven and Eclipse Java project with Ryu1's coding standard checker,
 which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
   </description>
   <inceptionYear>2010</inceptionYear>
@@ -18,8 +18,8 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/ryu1/ryu-archetype-quickstart.git</connection>
-    <developerConnection>scm:git:git://github.com/ryu1/ryu-archetype-quickstart.git</developerConnection>
+    <connection>scm:git:git://github.com/ryu1/ryu1-archetype-quickstart.git</connection>
+    <developerConnection>scm:git:git://github.com/ryu1/ryu1-archetype-quickstart.git</developerConnection>
   </scm>
   <distributionManagement>
     <repository>
