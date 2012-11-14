@@ -3,7 +3,7 @@
   <groupId>jp.xet.archetype</groupId>
   <artifactId>ryu-archetype-quickstart</artifactId>
   <version>1.7-SNAPSHOT</version>
-  <name>Daisuke's Java Project Archetype</name>
+  <name>Ryu's Java Project Archetype</name>
   <description>
 Creates Maven and Eclipse Java project with Ryu's coding standard checker,
 which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
@@ -11,10 +11,9 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
   <inceptionYear>2010</inceptionYear>
   <developers>
     <developer>
-      <id>daisuke</id>
+      <id>ryuichi</id>
       <name>Ryuichi Ishitsuka</name>
-      <email>dai.0304 at gmail.com</email>
-      <url>http://d.hatena.ne.jp/daisuke-m/</url>
+      <email>jeremy.hillary.boob at gmail.com</email>
       <timezone>+9</timezone>
     </developer>
   </developers>
@@ -22,22 +21,6 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     <connection>scm:git:git://github.com/ryu1/ryu-archetype-quickstart.git</connection>
     <developerConnection>scm:git:git://github.com/ryu1/ryu-archetype-quickstart.git</developerConnection>
   </scm>
-  <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-ssh</artifactId>
-        <version>1.0-beta-7</version>
-      </extension>
-    </extensions>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-release-plugin</artifactId>
-        <version>2.0-beta-9</version>
-      </plugin>
-    </plugins>
-  </build>
   <distributionManagement>
     <repository>
       <id>repo</id>
