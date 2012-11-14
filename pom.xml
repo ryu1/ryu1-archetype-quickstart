@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>jp.xet.archetype</groupId>
-  <artifactId>daisuke-archetype-quickstart</artifactId>
+  <artifactId>ryu-archetype-quickstart</artifactId>
   <version>1.7-SNAPSHOT</version>
   <name>Daisuke's Java Project Archetype</name>
   <description>
-Creates Maven and Eclipse Java project with Daisuke's coding standard checker,
+Creates Maven and Eclipse Java project with Ryu's coding standard checker,
 which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
   </description>
   <inceptionYear>2010</inceptionYear>
   <developers>
     <developer>
       <id>daisuke</id>
-      <name>MIYAMOTO Daisuke</name>
+      <name>Ryuichi Ishitsuka</name>
       <email>dai.0304 at gmail.com</email>
       <url>http://d.hatena.ne.jp/daisuke-m/</url>
       <timezone>+9</timezone>

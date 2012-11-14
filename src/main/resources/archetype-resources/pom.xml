@@ -12,13 +12,6 @@
   <artifactId>${artifactId}</artifactId>
   <version>${version}</version>
   <inceptionYear>${copyrightYear}</inceptionYear>
-  <licenses>
-    <license>
-      <name>The Apache Software License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-      <distribution>repo</distribution>
-    </license>
-  </licenses>
   <dependencies>
     <!-- TEST DEPENDENCIES -->
     <dependency>
@@ -84,13 +77,6 @@
       <version>2.0.1</version>
     </dependency>
   </dependencies>
-  <repositories>
-    <repository>
-      <id>jiemamy.org-release</id>
-      <name>Jiemamy Repository</name>
-      <url>http://maven.jiemamy.org/release</url>
-    </repository>
-  </repositories>
   <properties>
     <slf4j-version>1.6.1</slf4j-version>
     <logback-version>0.9.28</logback-version>
