@@ -19,8 +19,8 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/dai0304/daisuke-archetype-quickstart.git</connection>
-    <developerConnection>scm:git:git://github.com/dai0304/daisuke-archetype-quickstart.git</developerConnection>
+    <connection>scm:git:git://github.com/ryu1/ryu-archetype-quickstart.git</connection>
+    <developerConnection>scm:git:git://github.com/ryu1/ryu-archetype-quickstart.git</developerConnection>
   </scm>
   <build>
     <extensions>
@@ -40,14 +40,13 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
   </build>
   <distributionManagement>
     <repository>
-      <id>maven.xet.jp</id>
+      <id>repo</id>
       <name>Dragon Release Repository</name>
-      <url>scp://maven.xet.jp/var/www/maven.xet.jp/release</url>
+      <url>http://github.com/ikikko/maven-repo/raw/master/release</url>
     </repository>
     <snapshotRepository>
-      <id>maven.xet.jp-snapshot</id>
-      <name>Dragon Snapshot Repository</name>
-      <url>scp://maven.xet.jp/var/www/maven.xet.jp/snapshot</url>
+      <id>snapshot-repo</id>
+      <url>http://github.com/ikikko/maven-repo/raw/master/snapshotst</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
