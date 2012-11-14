@@ -24,12 +24,11 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
   <distributionManagement>
     <repository>
       <id>repo</id>
-      <name>Dragon Release Repository</name>
-      <url>http://github.com/ikikko/maven-repo/raw/master/release</url>
+      <url>http://github.com/ryu1/maven-repo/raw/master/release</url>
     </repository>
     <snapshotRepository>
       <id>snapshot-repo</id>
-      <url>http://github.com/ikikko/maven-repo/raw/master/snapshotst</url>
+      <url>http://github.com/ryu1/maven-repo/raw/master/snapshotst</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
