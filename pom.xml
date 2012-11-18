@@ -18,7 +18,7 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</connecttion>
+    <connection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</connection>
     <developerConnection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</developerConnection>
   </scm>
   <distributionManagement>
