@@ -32,12 +32,12 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
       <extension>
         <groupId>org.apache.maven.scm</groupId>
         <artifactId>maven-scm-manager-plexus</artifactId>
-        <version>1.8</version>
+        <version>1.8.1</version>
       </extension>
       <extension>
         <groupId>org.apache.maven.scm</groupId>
         <artifactId>maven-scm-provider-gitexe</artifactId>
-        <version>1.8</version>
+        <version>1.8.1</version>
       </extension>
     </extensions>
   </build>
