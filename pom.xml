@@ -21,6 +21,27 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     <connection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</connection>
     <developerConnection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</developerConnection>
   </scm>
+
+  <build>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-scm</artifactId>
+        <version>2.2</version>
+      </extension>
+      <extension>
+        <groupId>org.apache.maven.scm</groupId>
+        <artifactId>maven-scm-manager-plexus</artifactId>
+        <version>2.2</version>
+      </extension>
+      <extension>
+        <groupId>org.apache.maven.scm</groupId>
+        <artifactId>maven-scm-provider-gitexe</artifactId>
+        <version>2.2</version>
+      </extension>
+    </extensions>
+  </build>
+
   <distributionManagement>
 <!--
     <repository>
