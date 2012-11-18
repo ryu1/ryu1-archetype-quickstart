@@ -18,17 +18,25 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     </developer>
   </developers>
   <scm>
-    <connection>scm:git:git://github.com/ryu1/ryu1-archetype-quickstart.git</connection>
-    <developerConnection>scm:git:git://github.com/ryu1/ryu1-archetype-quickstart.git</developerConnection>
+    <connection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</connecttion>
+    <developerConnection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</developerConnection>
   </scm>
   <distributionManagement>
+<!--
     <repository>
       <id>repo</id>
       <url>http://github.com/ryu1/maven-repo/raw/master/release</url>
+      <url>
     </repository>
     <snapshotRepository>
       <id>snapshot-repo</id>
       <url>http://github.com/ryu1/maven-repo/raw/master/snapshotst</url>
     </snapshotRepository>
+-->
+    <repository>
+      <id>repo</id>
+      <url>scm:git:https://github.com/ryu1/maven-repo.git
+      </url>
+    </repository>
   </distributionManagement>
 </project>
