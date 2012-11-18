@@ -56,7 +56,7 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
 -->
     <repository>
       <id>repo</id>
-      <url>scm:git:ssh://git@github.com/ryu1/maven-repo.git
+      <url>scm:git:git@github.com:ryu1/ryu1-archetype-quickstart.git
       </url>
     </repository>
   </distributionManagement>
