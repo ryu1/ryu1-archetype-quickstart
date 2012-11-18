@@ -21,13 +21,13 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     <connection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</connection>
     <developerConnection>scm:git:https://github.com/ryu1/ryu1-archetype-quickstart.git</developerConnection>
   </scm>
-
+<!--
   <build>
     <extensions>
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
         <artifactId>wagon-scm</artifactId>
-        <version>1.8.1</version>
+        <version>2.2</version>
       </extension>
       <extension>
         <groupId>org.apache.maven.scm</groupId>
@@ -41,9 +41,9 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
       </extension>
     </extensions>
   </build>
-
-  <distributionManagement>
+-->
 <!--
+  <distributionManagement>
     <repository>
       <id>repo</id>
       <url>http://github.com/ryu1/maven-repo/raw/master/release</url>
@@ -54,10 +54,14 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
       <url>http://github.com/ryu1/maven-repo/raw/master/snapshotst</url>
     </snapshotRepository>
 -->
+<!--
     <repository>
       <id>repo</id>
       <url>scm:git:git@github.com:ryu1/ryu1-archetype-quickstart.git
       </url>
     </repository>
+-->
+<!--
   </distributionManagement>
+-->
 </project>
