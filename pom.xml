@@ -42,7 +42,6 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     </extensions>
   </build>
 -->
-<!--
   <distributionManagement>
     <repository>
       <id>repo</id>
@@ -53,7 +52,6 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
       <id>snapshot-repo</id>
       <url>http://github.com/ryu1/maven-repo/raw/master/snapshotst</url>
     </snapshotRepository>
--->
 <!--
     <repository>
       <id>repo</id>
@@ -61,7 +59,5 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
       </url>
     </repository>
 -->
-<!--
   </distributionManagement>
--->
 </project>
