@@ -1,4 +1,4 @@
-daisuke-archetype-quickstart
+ryu1-archetype-quickstart
 ============================
 
 What is this?
@@ -15,8 +15,9 @@ What is this?
 How to use?
 -----------
 
-- [Maven release repository](http://maven.xet.jp/release/)
-- [Maven snapshot repository](http://maven.xet.jp/snapshot/)
+アーキタイプカタログ
+http://maven-repo.sourceforge.jp/archetype-catalog.xml
+ 
 
     mvn3 archetype:generate \
         -DarchetypeRepository=http://maven.xet.jp/release \
