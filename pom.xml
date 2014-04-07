@@ -46,7 +46,6 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
     <repository>
       <id>repo</id>
       <url>http://github.com/ryu1/maven-repo/raw/master/release</url>
-      <url>
     </repository>
     <snapshotRepository>
       <id>snapshot-repo</id>
